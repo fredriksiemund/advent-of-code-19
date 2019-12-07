@@ -1,6 +1,11 @@
 import sys
 import math
 
+# print "Enter the numbers"
+# a = raw_input()
+# #converting all elements of array to integer
+# a = (map(int,a.split()))
+
 with open("input.txt", "r") as i:
     input = i.readline()
     input = input.split(',')
