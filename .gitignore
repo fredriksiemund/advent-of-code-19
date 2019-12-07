@@ -8,3 +8,4 @@
 
 # Python
 env
+*.pyc
