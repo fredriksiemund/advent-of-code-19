@@ -9,6 +9,9 @@
 # VSCode
 .vscode
 
+# IntelliJ
+*/.idea
+
 # Python
 env
 *.pyc

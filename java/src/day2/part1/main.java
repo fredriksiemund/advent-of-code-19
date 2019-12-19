@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
 
 public class main {
     public static void main(String[] args) throws IOException {
@@ -14,8 +13,7 @@ public class main {
         br.close();
         Program program = new Program(input);
         program.runProgram();
-        HashMap<Integer, Integer> result = program.getProgram();
-        System.out.println(result.get(0));
+        System.out.println(program.getValueAtAddress(0));
     }
 
 }

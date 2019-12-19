@@ -32,7 +32,7 @@ public class Program {
         }
     }
 
-    public HashMap<Integer, Integer> getProgram() {
-        return program;
+    public int getValueAtAddress(int address) {
+        return program.get(address);
     }
 }
