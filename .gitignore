@@ -10,6 +10,7 @@
 # Python
 env
 *.pyc
+java/out
 
 # Java
 *.class
