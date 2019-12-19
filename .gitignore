@@ -5,7 +5,15 @@
 
 #VSCode
 .vscode
+.DS_Store
 
 # Python
 env
 *.pyc
+
+# Java
+*.class
+*.log
+*.jar
+
+
