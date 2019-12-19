@@ -130,5 +130,4 @@ def main():
           i += 2
       
 main()
-print(len(visted_nodes))
-# printOutput()
+printOutput()
