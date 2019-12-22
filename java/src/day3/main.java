@@ -1,4 +1,6 @@
-package day3.part1;
+package day3;
+
+import day3.Circuit;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,6 +17,7 @@ public class main {
             String[] arrOfPath = path.split(",");
             circuit.addWire(arrOfPath);
         }
-        System.out.println(circuit.getClosestManhattanDistance());
+        System.out.println("Manhattan distance: " + circuit.getClosestManhattanDistance());
+        System.out.println("Shortest path: " + circuit.getShortestPath());
     }
 }
